@@ -1,7 +1,7 @@
 # Docker image for architecture & risk analysis pipeline
 # Focus: reproducible environment to run scripts (SBOM, drift, hotspots, ownership, security ingestion)
 # Base: slim Debian + multiple runtimes
-FROM mcr.microsoft.com/devcontainers/base:ubuntu-22.04
+FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 ARG NODE_VERSION=20.11.1
 ARG GO_VERSION=1.22.4
